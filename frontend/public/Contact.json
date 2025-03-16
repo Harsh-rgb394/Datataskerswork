@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "+1234567890"
+    },
+    {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "phone": "+1987654321"
+    },
+    {
+        "id": 3,
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "phone": "+918905632463"
+    },
+    {
+        "id": 4,
+        "firstName": "Bob",
+        "lastName": "Brown",
+        "phone": "+1223344556"
+    },
+    {
+        "id": 5,
+        "firstName": "Charlie",
+        "lastName": "Davis",
+        "phone": "+1334455667"
+    },
+    {
+        "id": 6,
+        "firstName": "Harsh",
+        "lastName": "kumar",
+        "phone": "+133448867"
+    },
+    {
+        "id": 7,
+        "firstName": "David",
+        "lastName": "pUTRA",
+        "phone": "+1334400667"
+    },
+    {
+        "id": 8,
+        "firstName": "Bravo",
+        "lastName": "Alpha",
+        "phone": "+130000667"
+    }
+]
