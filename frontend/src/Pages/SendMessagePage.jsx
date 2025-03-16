@@ -7,7 +7,7 @@ function SendMessagePage() {
     const getallmessages = async () => {
 
         try {
-            const response = await axios.get("http://localhost:5000/sent-messages");
+            const response = await axios.get("https://datataskerswork.onrender.com/sent-messages");
             // console.log(response.data);
             if (response.data) {
                 setmessages(response.data);

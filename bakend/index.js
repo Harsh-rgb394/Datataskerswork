@@ -61,7 +61,10 @@ app.post('/send-otp', async (req, res) => {
         res.status(500).json({ success: false, message: 'Error sending OTP', error });
     }
 });
-
+// for default route checking 
+// app.get('/',(req,res)=>{
+//     res.send("Hello World");
+// });
 // Get Sent Messages
 app.get('/sent-messages', async (req, res) => {
     const messages = await Message.find().sort({ timestamp: -1 });

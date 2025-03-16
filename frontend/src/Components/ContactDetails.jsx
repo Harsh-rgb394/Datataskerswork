@@ -16,7 +16,7 @@ const ContactDetails = () => {
     // TP1UL2RPXTEQZPXMRTG3EJ1L reovering code for twillio
     const handleSendOTP = async () => {
         try {
-            const response = await axios.post("http://localhost:5000/send-otp", {
+            const response = await axios.post("https://datataskerswork.onrender.com/send-otp", {
                 contactName: `${contact.firstName} ${contact.lastName}`,
                 phone: contact.phone
             })
